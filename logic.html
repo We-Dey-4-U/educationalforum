@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Build a Tribute Page</title>
+    <link rel="stylesheet" href="logic.css" />
+</head>
+
+<body style="background-color: hsla(222, 44%, 13%, 1);">
+    <h1 id="title" style="color: aliceblue;">What is electrical programmable logic controller?</h1>
+    <main id="main">
+        <figure id="img-div">
+            <img id="image" src="https://www.polycase.com/wp/wp-content/media/plc-maintenance.jpg"
+                alt="Here's is a true story of chief Baco encounter with old class mate:" />
+            <figcaption 1d="img-caption" div id="img-caption" style="color: aliceblue;">
+            
+            </figcaption>
+        </figure>
+        <section id="tribute-info">
+            <h2 id="headline" style="color: aliceblue;">
+            </h2>
+            <ul style="color: aliceblue; font-size: 1.5rem;">
+             In today’s society, we rely on automated machinery to perform many of our most critical industrial processes, from generating electricity to weaving fabric. 
+             Automation technology has allowed us to scale new heights of production and innovation. But our current level of automation wouldn’t be possible without a critical invention called the programmable logic controller (PLC).
+             programmable logic controllers are solid state devices designed to perform logical decision making 
+             function for control of applications that requires relays, solid-state electroncics, or microcomputers.
+            is a type of tiny computer that can receive data through its inputs and send operating instructions through its outputs.
+            Fundamentally, a PLC’s job is to control a system’s functions using the internal logic programmed into it. Businesses
+            around the world use PLCs to automate their most important processes.
+            A PLC has many “input” terminals, through which it interprets “high” and “low” logical states from sensors and switches.
+            It also has many output terminals, through which it outputs “high” and “low” signals to power lights, solenoids,
+            contactors, small motors, and other devices lending themselves to on/off control
+            </ul>
+        </section>
+
+      <div> <h1 id="title" style="color: aliceblue;">How a Programmable Logic Controller Works</h1></div>
+        <main id="main">
+            <figure id="img-div">
+                <img id="image" src="https://www.polycase.com/wp/wp-content/media/man-taking-plc-course.jpg"
+                    alt="Here's is a true story of chief Baco encounter with old class mate:" />
+                <figcaption 1d="img-caption" div id="img-caption" style="color: aliceblue;">
+        
+                </figcaption>
+            </figure>
+            <section id="tribute-info">
+                <h2 id="headline" style="color: aliceblue;">
+                
+                </h2>
+                <ul style="color: aliceblue; font-size: 1.5rem;">
+                Now let’s take a look at what’s going on inside a programmable logic<br> controller. Remember that a PLC is an
+                input-output
+                system, which means that each unit both accepts inputs and controls outputs. Between inputs and outputs is the third
+                element of the system: logic programming, which happens in the CPU and controls the relationship between the inputs and outputs
+                <div><h1>Here’s how each element works:</h1></div>
+                  
+                <li><strong>Input Monitoring:</strong> The PLC monitors relevant data inputs and sends the data to the CPU. Some PLCs only use data
+                    inputs
+                    with discrete (on/off) inputs, but PLCs with analog capabilities can accept analog inputs for continuous variables.
+                    Inputs may come from IoT devices, robots, safety sensors, human-machine interfaces, or almost any other type of data
+                    entry point.</li>
+              
+                
+                
+                <li>Logic Programming: Every PLC is built with a microprocessor CPU, either 16-bit or 32-bit. Engineers and technicians
+                program the PLC CPU to recognize certain conditions and values and to make changes in the outputs based on its
+                programmed rules. The CPU is constantly checking the state of variables and making decisions based on programmed
+                conditions. This simple premise allows a wide variety of designs and functions..</li>
+
+                <li>Output Control: Based on the programmed logic, the PLC controls various switches, motor starters, relays, and other
+                devices connected to its outputs. This allows the PLCs to take control of mechanical processes such as the operation of
+                a machine. Engineers can also link multiple system parts by programming PLCs to send their output signal to another PLC
+                in a chain.</li>
+                </ul>
+            </section>
+         <section>
+            <div><h1 style="color: aliceblue; font-size: 1.5rem;">PLC programming languages</h1></div>
+
+            <ul style="color: aliceblue; font-size: 1.5rem;">
+                Most PLCs can be programmed using a standard computer and PLC programming software. The International Electrical Code’s
+                IEC 61131-3 standard defines five languages for PLC programming. Three of those languages use graphical interfaces for
+                programming, while the two others use text interfaces.
+                
+                Ladder logic has traditionally been the most commonly used programming language for PLCs. It’s one of the most intuitive
+                languages available because it uses a graphic interface that’s designed to resemble electrical diagrams, even using many
+                of the same symbols for contacts and relays. Ladder logic uses a series of “rungs” to represent a controller’s I/O
+                channels, each of which can be programmed with conditions and rules.
+                
+                However, other PLC programming languages offer more sophisticated tools. For example, structured text (ST) allows
+                programmers to quickly create complex, scalable programs using text commands. For the most complex tasks, there’s a
+                sequential function chart (SFC), which allows programmers to connect multiple systems and subroutines in other
+                programming languages.
+                
+                As we mentioned earlier, it’s common for PLCs to use proprietary software. However, although it might feel unfamiliar to
+                navigate a new PLC programming application, remember that each still operates under the basic principles of IEC 61131-3.
+                in this article we are going to focus on Ladder Logic and Programming PLCs
+        </section>
+
+        <h1 id="title" style="color: aliceblue;">Ladder Logic and Programming PLCs</h1>
+        <main id="main">
+           
+            <section id="tribute-info">
+                <h2 id="headline" style="color: aliceblue;">
+                </h2>
+                <ul style="color: aliceblue; font-size: 1.5rem;">
+                    this PLC has many “input” terminals, through which it interprets “high” and “low” logical states from sensors and switches.
+                    It also has many output terminals, through which it outputs “high” and “low” signals to power lights, solenoids,
+                    contactors, small motors, and other devices lending themselves to on/off control.
+                    
+                    In an effort to make PLCs easy to program, their programming language was designed to resemble ladder logic diagrams.
+                    Thus, an industrial electrician or electrical engineer accustomed to reading ladder logic schematics would feel
+                    comfortable programming a PLC to perform the same control functions.
+                    
+                    PLCs are industrial computers, and as such their input and output signals are typically 120 volts AC, just like the
+                    electromechanical control relays they were designed to replace. Although some PLCs have the ability to input and output
+                    low-level DC voltage signals of the magnitude used in logic gate circuits, this is the exception and not the rule.
+                    Signal connection and programming standards vary somewhat between different models of PLC, but they are similar enough
+                    to allow a “generic” introduction to PLC programming here.
+                    
+                    The following illustration shows a simple PLC, as it might appear from a front view. Two screw terminals provide
+                    connection to 120 volts AC for powering the PLC’s internal circuitry, labeled L1 and L2. Six screw terminals on the
+                    left-hand side provide connection to input devices, each terminal representing a different input “channel” with its own
+                    “X” label.
+                    
+                    The lower-left screw terminal is a “Common” connection, which is generally connected to L2 (neutral) of the 120 VAC
+                    power source.
+
+                    <figure id="img-div">
+                        <img id="image" src="https://sub.allaboutcircuits.com/images/04330.png"
+                            alt="Here's is a true story of chief Baco encounter with old class mate:" />
+                        <figcaption 1d="img-caption" div id="img-caption" style="color: aliceblue;">
+                    Inside the PLC housing, connected between each input terminal and the Common terminal, is an opto-isolator device
+                    (Light-Emitting Diode) that provides an electrically isolated “high” logic signal to the computer’s circuitry (a
+                    photo-transistor interprets the LED’s light) when there is 120 VAC power applied between the respective input terminal
+                    and the Common terminal. An indicating LED on the front panel of the PLC gives visual indication of an “energized”
+                    input:
+                        </figcaption>
+                    </figure>
+
+                    <figure id="img-div">
+                        <img id="image" src="https://sub.allaboutcircuits.com/images/04331.png"
+                            alt="Here's is a true story of chief Baco encounter with old class mate:" />
+                        <figcaption 1d="img-caption" div id="img-caption" style="color: aliceblue;">
+                            Output signals are generated by the PLC’s computer circuitry activating a switching device (transistor, TRIAC, or even
+                            an electromechanical relay), connecting the “Source” terminal to any of the “Y-” labeled output terminals. The “Source”
+                            terminal, correspondingly, is usually connected to the L1 side of the 120 VAC power source. As with each input, an
+                            indicating LED on the front panel of the PLC gives visual indication of an “energized” output:
+                        </figcaption>
+                    </figure>
+
+                    <figure id="img-div">
+                        <img id="image" src="https://sub.allaboutcircuits.com/images/04332.png"
+                            alt="Here's is a true story of chief Baco encounter with old class mate:" />
+                        <figcaption 1d="img-caption" div id="img-caption" style="color: aliceblue;">
+                            In this way, the PLC is able to interface with real-world devices such as switches and solenoids. The actual logic of
+                            the control system is established inside the PLC by means of a computer program. This program dictates which output gets
+                            energized under which input conditions.
+                            
+                            Although the program itself appears to be a ladder logic diagram, with switch and relay symbols, there are no actual
+                            switch contacts or relay coils operating inside the PLC to create the logical relationships between input and output.
+                            These are imaginary contacts and coils, if you will. The program is entered and viewed via a personal computer connected
+                            to the PLC’s programming port. Consider the following circuit and PLC program:
+                        </figcaption>
+                    </figure>
+
+                    <figure id="img-div">
+                        <img id="image" src="https://sub.allaboutcircuits.com/images/04333.png"
+                            alt="Here's is a true story of chief Baco encounter with old class mate:" />
+                        <figcaption 1d="img-caption" div id="img-caption" style="color: aliceblue;">
+                        When the pushbutton switch is unactuated (unpressed), no power is sent to the X1 input of the PLC. Following the
+                        program, which shows a normally-open X1 contact in series with a Y1 coil, no “power” will be sent to the Y1 coil. Thus,
+                        the PLC’s Y1 output remains de-energized, and the indicator lamp connected to it remains dark.
+                        
+                        If the pushbutton switch is pressed, however, power will be sent to the PLC’s X1 input. Any and all X1 contacts
+                        appearing in the program will assume the actuated (non-normal) state, as though they were relay contacts actuated by the
+                        energizing of a relay coil named “X1”.
+                        
+                        In this case, energizing the X1 input will cause the normally-open X1 contact will “close,” sending “power” to the Y1
+                        coil. When the Y1 coil of the program “energizes,” the real Y1 output will become energized, lighting up the lamp
+                        connected to it:
+                    </figure>
+
+                    <figure id="img-div">
+                        <img id="image" src="https://sub.allaboutcircuits.com/images/04334.png"
+                            alt="Here's is a true story of chief Baco encounter with old class mate:" />
+                        <figcaption 1d="img-caption" div id="img-caption" style="color: aliceblue;">
+                            It must be understood that the X1 contact, Y1 coil, connecting wires, and “power” appearing in the personal computer’s
+                            display are all virtual. They do not exist as real electrical components. They exist as commands in a computer program—a
+                            piece of software only—that just happens to resemble a real relay schematic diagram.
+                            
+                            Equally important to understand is that the personal computer used to display and edit the PLC’s program is not
+                            necessary for the PLC’s continued operation. Once a program has been loaded to the PLC from the personal computer, the
+                            personal computer may be unplugged from the PLC, and the PLC will continue to follow the programmed commands.
+                            
+                            I include the personal computer display in these illustrations for your sake only, in aiding to understand the
+                            relationship between real-life conditions (switch closure and lamp status) and the program’s status (“power” through
+                            virtual contacts and virtual coils).
+                    </figure>
+                </ul>
+            </section>
+
+                <h1 id="title" style="color: aliceblue;">Control System Behavior</h1>
+                <main id="main">
+                
+                    <section id="tribute-info">
+                        <h2 id="headline" style="color: aliceblue;">
+                        </h2>
+                        <ul style="color: aliceblue; font-size: 1.5rem;">
+                              
+                        The true power and versatility of a PLC is revealed when we want to alter the behavior of a control system. Since the
+                        PLC is a programmable device, we can alter its behavior by changing the commands we give it, without having to
+                        reconfigure the electrical components connected to it.
+                        
+                        For example, suppose we wanted to make this switch-and-lamp circuit function in an inverted fashion: push the button to
+                        make the lamp turn off, and release it to make it turn on. The “hardware” solution would require that a normally-closed
+                        pushbutton switch be substituted for the normally-open switch currently in place. The “software” solution is much
+                        easier: just alter the program so that contact X1 is normally-closed rather than normally-open.
+                        
+                        In the following illustration, we have the altered system shown in the state where the pushbutton is unactuated (not
+                        being pressed):
+                        <figure id="img-div">
+                            <img id="image" src="https://sub.allaboutcircuits.com/images/04335.png"
+                                alt="Here's is a true story of chief Baco encounter with old class mate:" />
+                            <figcaption 1d="img-caption" div id="img-caption" style="color: aliceblue;">
+                                In this next illustration, the switch is shown actuated (pressed):
+                            </figcaption>
+                        </figure>
+                        
+                        <figure id="img-div">
+                            <img id="image" src="https://sub.allaboutcircuits.com/images/04336.png"
+                                alt="Here's is a true story of chief Baco encounter with old class mate:" />
+                            <figcaption 1d="img-caption" div id="img-caption" style="color: aliceblue;">
+                                One of the advantages of implementing logical control in software rather than in hardware is that input signals can be
+                                re-used as many times in the program as is necessary. For example, take the following circuit and program, designed to
+                                energize the lamp if at least two of the three pushbutton switches are simultaneously actuated:
+                            </figcaption>
+                        </figure>
+
+                        <figure id="img-div">
+                        <img id="image" src="https://sub.allaboutcircuits.com/images/04337.png"
+                            alt="Here's is a true story of chief Baco encounter with old class mate:" />
+                        <figcaption 1d="img-caption" div id="img-caption" style="color: aliceblue;">
+                            To build an equivalent circuit using electromechanical relays, three relays with two normally-open contacts each would
+                            have to be used, to provide two contacts per input switch. Using a PLC, however, we can program as many contacts as we
+                            wish for each “X” input without adding additional hardware, since each input and each output is nothing more than a
+                            single bit in the PLC’s digital memory (either 0 or 1), and can be recalled as many times as necessary.
+                            
+                            Furthermore, since each output in the PLC is nothing more than a bit in its memory as well, we can assign contacts in a
+                            PLC program “actuated” by an output (Y) status. Take for instance this next system, a motor start-stop control circuit:
+                        </figcaption>
+                        </figure>
+
+
+                        <figure id="img-div">
+                            <img id="image" src="https://sub.allaboutcircuits.com/images/04338.png"
+                                alt="Here's is a true story of chief Baco encounter with old class mate:" />
+                            <figcaption 1d="img-caption" div id="img-caption" style="color: aliceblue;">
+                                The pushbutton switch connected to input X1 serves as the “Start” switch, while the switch connected to input X2 serves
+                                as the “Stop.” Another contact in the program, named Y1, uses the output coil status as a seal-in contact, directly, so
+                                that the motor contactor will continue to be energized after the “Start” pushbutton switch is released. You can see the
+                                normally-closed contact X2 appear in a colored block, showing that it is in a closed (“electrically conducting”) state.
+                                
+                                If we were to press the “Start” button, input X1 would energize, thus “closing” the X1 contact in the program, sending
+                                “power” to the Y1 “coil,” energizing the Y1 output and applying 120 volt AC power to the real motor contactor coil. The
+                                parallel Y1 contact will also “close,” thus latching the “circuit” in an energized state:
+                            </figcaption>
+                        </figure>
+    
+                
+   
+
+                <nav aria-label="pagination" class="pagination">
+
+                    <a href="courses.html" class="pagination-btn" aria-label="previous page">
+                        <ion-icon name="arrow-back" aria-hidden="true">Goback</ion-icon>
+                    </a>
+                    <a href="blog.html" class="pagination-btn" aria-label="more page">...</a>
+                    <a href="logic.html" class="pagination-btn">1</a>
+                    <a href="logicvideo.html" class="pagination-btn">2</a>
+                    <a href="#" class="pagination-btn">3</a>
+                    <a href="#" class="pagination-btn" aria-label="more page">...</a>
+
+                    <a href="#" class="pagination-btn" aria-label="next page">
+                        <ion-icon name="arrow-forward" aria-hidden="true">Readmore</ion-icon>
+                    </a>
+
+                </nav>
+    </main>
+
+
+    <script>
+        'use strict';
+
+
+
+        /**
+        * Add event listener on multiple elements
+        */
+
+        const addEventOnElements = function (elements, eventType, callback) {
+            for (let i = 0, len = elements.length; i < len; i++) { elements[i].addEventListener(eventType, callback); }
+        } /** *
+        MOBILE NAVBAR TOGGLER */ const navbar = document.querySelector("[data-navbar]"); const
+            navTogglers = document.querySelectorAll("[data-nav-toggler]"); const toggleNav = () => {
+                navbar.classList.toggle("active");
+                document.body.classList.toggle("nav-active");
+            }
+
+        addEventOnElements(navTogglers, "click", toggleNav);
+
+
+
+        /**
+        * HEADER ANIMATION
+        * When scrolled donw to 100px header will be active
+        */
+
+        const header = document.querySelector("[data-header]");
+        const backTopBtn = document.querySelector("[data-back-top-btn]");
+
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 100) {
+                header.classList.add("active");
+                backTopBtn.classList.add("active");
+            } else {
+                header.classList.remove("active");
+                backTopBtn.classList.remove("active");
+            }
+        });
+
+
+
+        /**
+        * SLIDER
+        */
+
+        const slider = document.querySelector("[data-slider]");
+        const sliderContainer = document.querySelector("[data-slider-container]");
+        const sliderPrevBtn = document.querySelector("[data-slider-prev]");
+        const sliderNextBtn = document.querySelector("[data-slider-next]");
+
+        let totalSliderVisibleItems = Number(getComputedStyle(slider).getPropertyValue("--slider-items"));
+        let totalSlidableItems = sliderContainer.childElementCount - totalSliderVisibleItems;
+
+        let currentSlidePos = 0;
+
+        const moveSliderItem = function () {
+            sliderContainer.style.transform = `translateX(-${sliderContainer.children[currentSlidePos].offsetLeft}px)`;
+        }
+
+        /**
+        * NEXT SLIDE
+        */
+
+        const slideNext = function () {
+            const slideEnd = currentSlidePos >= totalSlidableItems;
+
+            if (slideEnd) {
+                currentSlidePos = 0;
+            } else {
+                currentSlidePos++;
+            }
+
+            moveSliderItem();
+        }
+
+        sliderNextBtn.addEventListener("click", slideNext);
+
+        /**
+        * PREVIOUS SLIDE
+        */
+
+        const slidePrev = function () {
+            if (currentSlidePos <= 0) { currentSlidePos = totalSlidableItems; } else { currentSlidePos--; } moveSliderItem();
+        }
+        sliderPrevBtn.addEventListener("click", slidePrev); /** * RESPONSIVE */ window.addEventListener("resize",
+            function () {
+                totalSliderVisibleItems = Number(getComputedStyle(slider).getPropertyValue("--slider-items"));
+                totalSlidableItems = sliderContainer.childElementCount - totalSliderVisibleItems; moveSliderItem();
+            }); </script>
+
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bulb on/off</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="about.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <script type="text/javascript">
+        function light(show) {
+              var pic;
+              if (show == 0) {
+                  pic = "https://github.com/iamsofiullah/bulb-on-off-js-project/blob/main/Lightbulb%20on%20off/lightoff.jpg?raw=true"
+              }
+
+              else {
+                 pic = "https://github.com/iamsofiullah/bulb-on-off-js-project/blob/main/Lightbulb%20on%20off/lighton.jpg?raw=true"
+              }
+              document.getElementById('bulb').src = pic;
+        }
+
+    </script>
+   
+</head>
+
+<body>
+    <h1>bulb on/off</h1>
+    <p>javascript of source attribute of an images</p>
+    <img id="bulb" src="https://github.com/iamsofiullah/bulb-on-off-js-project/blob/main/Lightbulb%20on%20off/lightoff.jpg?raw=true" alt="" id="lightbulb" onclick="bulbToggle()" alt="" style="width: 100px; height: 120px; margin-left: 2px;">
+   
+    <p>
+        <button type="button" onclick="light(1)">light on</button>
+        <button type="button" onclick="light(0)">light off</button>
+    </p>
+
+</body>
+</html>

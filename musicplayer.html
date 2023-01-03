@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bulb on/off</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="musicplayer.css" />
+
+
+    <!----google font link-->
+
+    <!-----------swipper js----------------------------------------------------->
+
+r
+
+    <!-- Demo styles -->
+
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">click the switches to turn the bulb on or off</h1>
+        <img src="https://github.com/iamsofiullah/bulb-on-off-js-project/blob/main/Lightbulb%20on%20off/lightoff.jpg?raw=true" alt="" id="lightbulb" >
+        <p>
+            <button style="border-radius: 100%; width: 10rem; height: 10rem;" type="button" onclick="bulbToggle()">light on</button>
+            <button style="border-radius: 100%; width: 10rem; height: 10rem;" type="button" onclick="bulbToggle()">light off</button>
+        </p>
+
+    </div>
+    
+    <script>
+        function bulbToggle() {
+                let bulb = document.getElementById('lightbulb');
+
+                if (bulb.src.match('lightoff')) {
+                    bulb.src = 'https://github.com/iamsofiullah/bulb-on-off-js-project/blob/main/Lightbulb%20on%20off/lighton.jpg?raw=true';
+                } else {
+                    bulb.src = 'https://github.com/iamsofiullah/bulb-on-off-js-project/blob/main/Lightbulb%20on%20off/lightoff.jpg?raw=true" alt="" id="lightbulb'
+                }
+            }
+
+    </script>
+    
+    <script src="script.js"></script>
+    </body>
+    
+    </html>
+

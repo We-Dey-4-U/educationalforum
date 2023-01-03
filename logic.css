@@ -1,0 +1,75 @@
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    line-height: 1.2
+}
+
+p {
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 1.2;
+}
+
+#img-div {
+    background: wh;
+    padding: 10px;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.3rem
+}
+
+ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+}
+
+li {
+    margin: 16px 0;
+}
+
+figcaption {
+    margin: 15px 0 5px 0;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    width: 20rem;
+}
+
+.recent-post-card .card-badge:is(:hover, :focus-visible),
+.pagination-btn:is(:hover, :focus-visible) {
+    transform: translateY(-2px);
+    background-color: var(--bg-carolina-blue);
+}
+
+
+.pagination-btn {
+    background-color: var(--bg-prussian-blue);
+    color: var(--text-white);
+    font-weight: var(--weight-bold);
+    line-height: 1;
+    width: 35px;
+    height: 35px;
+    display: grid;
+    place-items: center;
+    border-radius: var(--radius-circle);
+    transition: var(--transition-1);
+}
+
+.pagination {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    margin-block-start: 60px;
+}
